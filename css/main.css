@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.main-content {
+    padding-top: 50px;
+}
+
+.game-content {
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    margin-top: 50px;
+    padding-left: 50px;
+    border-radius: 1px;
+    border-width: 1;
+    border-style: solid;
+    border-color: grey;
+}
+
+.title,
+.banner-text {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+.title-deskripsi{
+    font-size: x-large;
+}
+
+.game-tittle {
+    font-size: large;
+	font-weight: 100;
+}
+.game-deskripsi {
+    font-size: medium;
+	font-weight: 100;
+}
+
+.footer {
+    padding-top: 50px;
+	padding-bottom: 20px;
+}
+.footer-text {
+    font-size: medium;
+	font-weight: 100;
+}
+
+@media only screen and (max-width: 500px) {
+    .main-content {
+        padding-top: 50px;
+    }
+    
+    .game-content {
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .footer-content {
+        margin-top: 50px;
+        padding-left: 50px;
+        border-radius: 1px;
+        border-width: 1;
+        border-style: solid;
+        border-color: grey;
+    }
+    
+    .title,
+    .banner-text {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        font-weight: 200;
+    }
+    .title-deskripsi{
+        font-size: x-large;
+    }
+    
+    .game-tittle {
+        font-size: large;
+        font-weight: 100;
+    }
+    .game-deskripsi {
+        font-size: medium;
+        font-weight: 100;
+    }
+    
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .footer-text {
+        font-size: medium;
+        font-weight: 100;
+    }
+  }
